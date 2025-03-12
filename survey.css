@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    caret-color: transparent;
+    box-sizing: border-box;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+img{
+    vertical-align: middle;
+}
+
+body{
+    background-image: url('assets/ol.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+.quizz-container {
+    max-width: 900px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #b30000;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+.quest1 {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-left: 5px solid #b30000;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.quest1 p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.asnw label, .answ label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    background-color: #b30000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #800000;
+}
+
+
+@media screen and (max-width: 600px) {
+    .quizz-container {
+        padding: 15px;
+    }
+
+    textarea {
+        font-size: 14px;
+    }
+}

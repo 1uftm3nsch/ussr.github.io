@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="asset/page-favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="survey.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="quizz-container">
+        <h1>Welcome comarde</h1>
+        <form id="quizz-form">
+            <div class="question">
+                <div class="quest1">
+                    <p>1. In what year was the Soviet Union officially established?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q1" value="a">1917</label>
+                        <label><input type="radio" name="q1" value="b">1922</label>
+                        <label><input type="radio" name="q1" value="c">1924</label>
+                        <label><input type="radio" name="q1" value="d">1936</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>2. Who was the leader of the October Revolution and the founder of the Soviet Union?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q2" value="a">Joseph Stalin</label>
+                        <label><input type="radio" name="q2" value="b">Nikita Khrushchev</label>
+                        <label><input type="radio" name="q2" value="c">Leon Trotsky</label>
+                        <label><input type="radio" name="q2" value="d">Vladimir Lenin</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>3. In what year did the Soviet Union officially dissolve?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q3" value="a">1985</label>
+                        <label><input type="radio" name="q3" value="b">1989</label>
+                        <label><input type="radio" name="q3" value="c">1990</label>
+                        <label><input type="radio" name="q3" value="d">1991</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>4. What was the capital city of the Soviet Union?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q4" value="a">Kiev</label>
+                        <label><input type="radio" name="q4" value="b">Leningrad</label>
+                        <label><input type="radio" name="q4" value="c">Moscow</label>
+                        <label><input type="radio" name="q4" value="d">Minsk</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>5. What was the name of the reform policy initiated by Mikhail Gorbachev?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q5" value="a">Glasnost</label>
+                        <label><input type="radio" name="q5" value="b">Perestroika</label>
+                        <label><input type="radio" name="q5" value="c">Bolshevik</label>
+                        <label><input type="radio" name="q5" value="d">Pravda</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>6. The Soviet Union was the first country in the world to do what?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q6" value="a">Host the Winter Olympics</label>
+                        <label><input type="radio" name="q6" value="b">Launch an artificial satellite</label>
+                        <label><input type="radio" name="q6" value="c">Invent the jet engine</label>
+                        <label><input type="radio" name="q6" value="d">Hold direct presidential elections</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>7. What was the name of the first artificial satellite launched by the Soviet Union?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q7" value="a">Sputnik 1</label>
+                        <label><input type="radio" name="q7" value="b">Soyuz</label>
+                        <label><input type="radio" name="q7" value="c">Luna 2</label>
+                        <label><input type="radio" name="q7" value="d">Vostok</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>8. The Soviet Union was a founding member of which of the following organizations?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q8" value="a">NATO</label>
+                        <label><input type="radio" name="q8" value="b">EU</label>
+                        <label><input type="radio" name="q8" value="c">United Nations</label>
+                        <label><input type="radio" name="q8" value="d">ASEAN</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>9. How many Soviet republics made up the USSR at the time of its dissolution?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q9" value="a">12</label>
+                        <label><input type="radio" name="q9" value="b">14</label>
+                        <label><input type="radio" name="q9" value="c">15</label>
+                        <label><input type="radio" name="q9" value="d">16</label>
+                    </div>
+                </div>
+            
+                <div class="quest1">
+                    <p>10. The Cuban Missile Crisis in 1962 was a confrontation between the Soviet Union and which country?</p>
+                    <div class="asnw">
+                        <label><input type="radio" name="q10" value="a">United Kingdom</label>
+                        <label><input type="radio" name="q10" value="b">China</label>
+                        <label><input type="radio" name="q10" value="c">France</label>
+                        <label><input type="radio" name="q10" value="d">United States</label>
+                    </div>
+                </div>
+
+                <div class="quest1">
+                    <p>11. The Soviet Union was established after World War II.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q11" value="true">True</label>
+                        <label><input type="radio" name="q11" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>12. Joseph Stalin succeeded Vladimir Lenin as the leader of the Soviet Union.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q12" value="true">True</label>
+                        <label><input type="radio" name="q12" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>13. The Cold War was a direct military conflict between the USA and the Soviet Union.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q13" value="true">True</label>
+                        <label><input type="radio" name="q13" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>14. The USSR launched the first man into space.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q14" value="true">True</label>
+                        <label><input type="radio" name="q14" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>15. The Soviet Union was made up of only one republic: Russia.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q15" value="true">True</label>
+                        <label><input type="radio" name="q15" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>16. The Berlin Wall was built by the Soviet Union.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q16" value="true">True</label>
+                        <label><input type="radio" name="q16" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>17. Mikhail Gorbachev introduced reforms known as Perestroika and Glasnost.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q17" value="true">True</label>
+                        <label><input type="radio" name="q17" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>18. The Soviet Union was a permanent member of the United Nations Security Council.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q18" value="true">True</label>
+                        <label><input type="radio" name="q18" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>19. The Soviet Union collapsed mainly due to external military defeat.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q19" value="true">True</label>
+                        <label><input type="radio" name="q19" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>20. The hammer and sickle was a symbol of the Soviet Union.</p>
+                    <div class="answ">
+                        <label><input type="radio" name="q20" value="true">True</label>
+                        <label><input type="radio" name="q20" value="false">False</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>21. Which of the following were Soviet republics? (Choose all that apply)</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q21[]" value="a">Ukraine</label>
+                        <label><input type="checkbox" name="q21[]" value="b">Kazakhstan</label>
+                        <label><input type="checkbox" name="q21[]" value="c">Poland</label>
+                        <label><input type="checkbox" name="q21[]" value="d">Estonia</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>22. Which leaders played major roles in the Soviet Union's history?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q22[]" value="a">Lenin</label>
+                        <label><input type="checkbox" name="q22[]" value="b">Stalin</label>
+                        <label><input type="checkbox" name="q22[]" value="c">Gorbachev</label>
+                        <label><input type="checkbox" name="q22[]" value="d">Winston Churchill</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>23. What were features of the Soviet planned economy?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q23[]" value="a">State-owned enterprises</label>
+                        <label><input type="checkbox" name="q23[]" value="b">Private property rights</label>
+                        <label><input type="checkbox" name="q23[]" value="c">Centralized planning</label>
+                        <label><input type="checkbox" name="q23[]" value="d">Collectivized agriculture</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>24. What were consequences of the Cold War?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q24[]" value="a">Nuclear arms race</label>
+                        <label><input type="checkbox" name="q24[]" value="b">Space Race</label>
+                        <label><input type="checkbox" name="q24[]" value="c">Direct US-Soviet war</label>
+                        <label><input type="checkbox" name="q24[]" value="d">Proxy wars</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>25. Which of the following countries shared a border with the Soviet Union?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q25[]" value="a">China</label>
+                        <label><input type="checkbox" name="q25[]" value="b">Norway</label>
+                        <label><input type="checkbox" name="q25[]" value="c">France</label>
+                        <label><input type="checkbox" name="q25[]" value="d">Afghanistan</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>26. Which events marked the collapse of the Soviet Union?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q26[]" value="a">Fall of the Berlin Wall</label>
+                        <label><input type="checkbox" name="q26[]" value="b">Gorbachev's resignation</label>
+                        <label><input type="checkbox" name="q26[]" value="c">Signing of the Belavezha Accords</label>
+                        <label><input type="checkbox" name="q26[]" value="d">Victory in WWII</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>27. What were goals of Gorbachev’s reforms?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q27[]" value="a">Increase transparency</label>
+                        <label><input type="checkbox" name="q27[]" value="b">Strengthen communism</label>
+                        <label><input type="checkbox" name="q27[]" value="c">Modernize the economy</label>
+                        <label><input type="checkbox" name="q27[]" value="d">Suppress political dissent</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>28. Which wars involved the Soviet Union? </p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q28[]" value="a">World War I</label>
+                        <label><input type="checkbox" name="q28[]" value="b">World War II</label>
+                        <label><input type="checkbox" name="q28[]" value="c">Afghan War (1979–1989)</label>
+                        <label><input type="checkbox" name="q28[]" value="d">Vietnam War</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>29. Which cities were major centers of power in the USSR?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q29[]" value="a">Moscow</label>
+                        <label><input type="checkbox" name="q29[]" value="b">Leningrad</label>
+                        <label><input type="checkbox" name="q29[]" value="c">Tbilisi</label>
+                        <label><input type="checkbox" name="q29[]" value="d">Kyiv</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>30. Which ideologies were promoted by the Soviet Union?</p>
+                    <div class="answ">
+                        <label><input type="checkbox" name="q30[]" value="a">Marxism</label>
+                        <label><input type="checkbox" name="q30[]" value="b">Leninism</label>
+                        <label><input type="checkbox" name="q30[]" value="c">Capitalism</label>
+                        <label><input type="checkbox" name="q30[]" value="d">Communism</label>
+                    </div>
+                </div>
+                
+                <div class="quest1">
+                    <p>31. Describe the historical background that led to the formation of the Soviet Union.</p>
+                    <textarea name="q31" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>32. What was the role of Lenin in the establishment of the Soviet Union?</p>
+                    <textarea name="q32" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>33. Explain the significance of the Five-Year Plans in Soviet economic development.</p>
+                    <textarea name="q33" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>34. What was the impact of World War II on the Soviet Union?</p>
+                    <textarea name="q34" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>35. Analyze the causes that led to the collapse of the Soviet Union in 1991.</p>
+                    <textarea name="q35" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>36. Discuss the main features of the Soviet political system.</p>
+                    <textarea name="q36" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>37. How did the Cold War shape the global role of the Soviet Union?</p>
+                    <textarea name="q37" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>38. What were the goals and effects of Gorbachev’s reforms: Perestroika and Glasnost?</p>
+                    <textarea name="q38" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>39. Compare and contrast the Soviet Union’s economy with that of capitalist countries.</p>
+                    <textarea name="q39" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div class="quest1">
+                    <p>40. What is the legacy of the Soviet Union in modern Russia and former Soviet republics?</p>
+                    <textarea name="q40" rows="4" cols="50"></textarea>
+                </div>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <button class="submit-btn" type="submit" id="submitBtn">Nộp bài</button>
+                    <p id="message"></p>
+                </div>
+            </div>
+        </form>
+    </div> 
+</body>
+</html>
